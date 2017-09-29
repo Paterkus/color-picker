@@ -1,0 +1,8 @@
+.button {
+  background-color: $purple;
+  border: none;
+  border-bottom: .2rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $s-size;
+}

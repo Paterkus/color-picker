@@ -1,0 +1,37 @@
+.show-color {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #FFFFFF;
+  margin: 0 auto;
+}
+
+.show-color-title {
+  color: $off-white;
+  margin: 0;
+  text-align: center;
+  padding: $s-size;
+}
+
+.show-color-message {
+  color: $off-white;
+  padding: $l-size;
+  text-align: center;
+  margin: 0;
+  border-bottom: 1px solid lighten($light-blue, 10%);
+}
+
+.show-app {
+  background: $light-blue;
+  margin-bottom: $xl-size;
+}
+
+.color-square {
+  margin: 0 auto;
+}
+
+@media (min-width: 45rem) {
+  .show-color {
+    width: 300px;
+    height: 300px;
+  }
+}
